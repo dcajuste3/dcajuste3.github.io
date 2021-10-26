@@ -12,6 +12,10 @@ header{
   overflow: auto;
   padding: 20px;
 }
+heady {
+  font-size: 50pt;
+
+}
 
 .header_left {
   float:left;
@@ -23,8 +27,34 @@ header{
 
 main {
   clear:both;
-  height:600px;
 
+}
+
+.picture {
+  width:130%;
+
+}
+.section_image{
+  width: 40%;
+  float: left;
+  background-position: center;
+  display: inline-block;
+}
+.section_text{
+  width: 40%;
+  float: right;
+  display: inline-block;
+
+}
+
+.blue {
+  padding: 30px;
+  background-color: rgb(214, 164, 232);
+  border: 5px dotted blue;
+
+}
+section {
+  overflow: auto;
 }
 footer {
   background-color: pink;
@@ -41,4 +71,36 @@ footer {
 .footer_right {
   width:60%;
   float:right;
+}
+
+.cake {
+  width:100%;
+  float: right;
+  height:400px;
+
+}
+
+.money {
+  background-image: url('../assets/cupcakes.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 20px;
+
+}
+
+.money h1 {
+  color: blue;
+  font-size: 40pt;
+  padding: 30px;
+
+}
+
+.money_button {
+  font-size: 25pt;
+  background-color: pink;
+  font-family: cursive;
+  color: green;
+  margin: 15px;
+
 }
