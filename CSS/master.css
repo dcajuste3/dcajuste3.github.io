@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+body {
+
+}
+
+header{
+  background-color: pink;
+  color: green;
+  overflow: auto;
+  padding: 20px;
+}
+
+.header_left {
+  float:left;
+}
+
+.header_right {
+  float:right;
+}
+
+main {
+  clear:both;
+  height:600px;
+
+}
+footer {
+  background-color: pink;
+  color: blue;
+  overflow: auto;
+
+}
+
+.footer_left {
+  width:40%;
+  float: left;
+}
+
+.footer_right {
+  width:60%;
+  float:right;
+}
