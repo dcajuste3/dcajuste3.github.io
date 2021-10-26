@@ -9,12 +9,9 @@ body {
 header{
   background-color: pink;
   color: green;
+  font-family: "impact", serif;
   overflow: auto;
   padding: 20px;
-}
-heady {
-  font-size: 50pt;
-
 }
 
 .header_left {
@@ -42,15 +39,17 @@ main {
 }
 .section_text{
   width: 40%;
+  font-size: 15pt;
   float: right;
   display: inline-block;
 
 }
 
 .blue {
-  padding: 30px;
+  padding: 55px;
   background-color: rgb(214, 164, 232);
-  border: 5px dotted blue;
+  border: 5px dotted green;
+  color: blue;
 
 }
 section {
@@ -65,11 +64,13 @@ footer {
 
 .footer_left {
   width:40%;
+  font-size: 15pt;
   float: left;
 }
 
 .footer_right {
   width:60%;
+  font-size: 13pt;
   float:right;
 }
 
