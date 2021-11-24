@@ -140,7 +140,32 @@ footer {
   grid-template-rows: auto auto;
 }
 
-.value img {
+.value_image {
   width:100%;
   display: grid;
+}
+
+#creative {
+  grid-row: 5/7;
+}
+
+#icon {
+  grid-column: 1/4;
+}
+
+#girl {
+  grid-column: 1/3;
+}
+
+#donuts {
+  grid-column: 1/3;
+}
+
+#book {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+#drinkc {
+
 }
